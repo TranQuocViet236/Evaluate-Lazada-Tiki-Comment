@@ -14,7 +14,7 @@ import joblib
 
 
 def load_data(csv_file_path):
-    df = pd.read_csv(csv_file_path, delimiter="\t", header=None)
+    df = pd.read_csv(csv_file_path)
     return df
 
 
